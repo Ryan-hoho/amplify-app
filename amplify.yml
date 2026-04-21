@@ -5,8 +5,8 @@ frontend:
       commands:
         -npm install
     build:
-    commands:
-      - npmrun build
+      commands:
+        - npmrun build
   artifacts:
     baseDirectory: build
     files:
