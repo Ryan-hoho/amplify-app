@@ -7,12 +7,12 @@ frontend:
     build:
     commands:
       - npmrun build
-artifacts:
-  baseDirectory: build
-  files:
-    - '**/*'
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
 
-cache:
-  paths:
-    - node_modules/**/*
+  cache:
+    paths:
+      - node_modules/**/*
 
